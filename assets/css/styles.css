@@ -36,3 +36,6 @@ padding-top: 50px;
 .shop-now-btn{
     margin-top: 30px;
 }
+.product-item-image{
+    max-width: 100%;
+}
