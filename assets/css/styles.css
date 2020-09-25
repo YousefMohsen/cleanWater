@@ -1,0 +1,10 @@
+.header-container-wide{
+    background-color: white !important;
+    width: 100vw;;
+    margin-left: -30px;
+    height: 100vh;
+}
+
+.hero__caption h1{
+    color: red !important;
+}
