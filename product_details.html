@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
-<body class="full-wrapper">
+<body class="full-wrapper" onload="initialClick()">
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -56,8 +56,6 @@
                                     <ul id="navigation">
                                         <li><a href="index.html">Home</a></li> 
                                         <li><a href="shop.html">shop</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li><a href="blog.html">Blog</a>
                                             <ul class="submenu">
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog_details.html">Blog Details</a></li>
@@ -132,7 +130,13 @@
                             <h2>Description</h2>
                         </div>
                         <div class="directory-cap mb-40">
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                            <p>We know the struggle when tap water is not drinkable and also it is not always convenient and cheap to go out and buy bottled 
+                                water or sachets whenever you are thirsty. Also, how do you trust
+                                that the water in those sealed containers are safe to drink, anyway? Our revolutionary new water purification bottle solves this issue
+                                once and for all. Filtra bottle combines the power of capillary tube with activated charcoal to purify the water as you drink from the 
+                                straw. Also, it makes it convenient to have a reusable bottle of clean drinking water when you are on the go. Thanks to the extraordinary efficiency
+                                of the filter, it only needs to be replaced every four months with normal daily use. 
+                            </p>
                         </div>
    <div>
     <div class="small-tittle mb-30">
@@ -157,82 +161,41 @@
         </div>
         <!--  Details End -->
         <!-- listing-area Area End -->
-        <!--? Popular Locations Start 01-->
-        <div class="popular-product pt-50">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-product mb-50">
-                            <div class="location-img">
-                                <img src="assets/img/gallery/popular-imtes1.png" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p><a href="product_details.html">Established fact that by the<br> readable content</a></p>
-                                <a href="product_details.html" class="btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12">
-                        <div class="single-product mb-50">
-                            <div class="location-img">
-                                <img src="assets/img/gallery/popular-imtes2.png" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p><a href="product_details.html">Established fact that by the<br> readable content</a></p>
-                                <a href="product_details.html" class="btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Popular Locations End -->
 
         <!--? Services Area Start -->
         <div class="categories-area section-padding40 gray-bg">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-50 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
                             <div class="cat-icon">
-                                <img src="assets/img/icon/services1.svg" alt="">
+                                <img class="stepsImage" src="assets/img/steps/s1.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5>Fast & Free Delivery</h5>
-                                <p>Free delivery on all orders</p>
+                                <h5>Collect tap water in the magic bottle</h5>
+                                <p>Put some boring and unsafe tap water into our amazing bottle 😉</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-cat mb-50">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
                             <div class="cat-icon">
-                                <img src="assets/img/icon/services2.svg" alt="">
+                                <img class="stepsImage"src="assets/img/steps/s2.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5>Fast & Free Delivery</h5>
-                                <p>Free delivery on all orders</p>
+                                <h5>Use the magic straw</h5>
+                                <p>The purifying straw purifies and kills 99.99% of pollutants and bacterias as you drink  💪</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-cat mb-30">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                        <div class="single-cat wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                             <div class="cat-icon">
-                                <img src="assets/img/icon/services3.svg" alt="">
+                                <img class="stepsImage" src="assets/img/steps/s3.png" alt="">
                             </div>
                             <div class="cat-cap">
-                                <h5>Fast & Free Delivery</h5>
-                                <p>Free delivery on all orders</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="single-cat">
-                            <div class="cat-icon">
-                                <img src="assets/img/icon/services4.svg" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5>Fast & Free Delivery</h5>
-                                <p>Free delivery on all orders</p>
+                                <h5>Drink perfectly safe water</h5>
+                                <p>The state of the art purification method is scientifically proven to be safer than water sachets and bottled water 🤯</p>
                             </div>
                         </div>
                     </div>
@@ -310,8 +273,8 @@
                     <h4>Get in touch</h4>
                     <ul>
                         <li><a href="#">(89) 982-278 356</a></li>
-                        <li><a href="#">demo@colorlib.com</a></li>
-                        <li><a href="#">67/A, Colorlib, Green road, NYC</a></li>
+                        <li><a href="#">kontakt@ourwebsite.dk</a></li>
+                        <li><a href="#">Some random website</a></li>
                     </ul>
                 </div>
             </div>
@@ -391,6 +354,8 @@
 <!-- Jquery Plugins, main Jquery -->	
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/api.js"></script>
+
 
 </body>
 </html>
