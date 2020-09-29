@@ -54,7 +54,7 @@ padding-top: 50px;
     font-size: 2em;
 }
 .filtra_logo {
-  width: 100px;
+  width: 100px !important;
 }
 .footer-style{
     padding-top: 20px;
