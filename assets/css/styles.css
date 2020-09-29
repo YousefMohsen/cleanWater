@@ -38,11 +38,18 @@ padding-top: 50px;
 }
 .product-item-image{
     height: 300px;
-    width: auto;
+    width: auto !important;
 }
 
 .stepsImage{
     width: 80px;
     height: auto;
     text-align: center;
+}
+
+.stepsTitle {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 0;
+    font-size: 2em;
 }
